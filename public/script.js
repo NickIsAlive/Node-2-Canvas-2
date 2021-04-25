@@ -19,6 +19,8 @@ function newDrawing(data) {
 	ellipse(data.x,data.y,30,30)
 }
 
+//こんにちは
+
 function mouseDragged() {
 	noStroke()
 	fill(localColour)
