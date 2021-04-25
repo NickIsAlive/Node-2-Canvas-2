@@ -27,3 +27,5 @@ function mouseDragged() {
 	data = {x:mouseX,y:mouseY,colour:localColour}
 	socket.emit('mouse',data)
 }
+
+//bonjour
