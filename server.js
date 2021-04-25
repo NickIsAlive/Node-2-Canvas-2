@@ -22,5 +22,3 @@ function newConnection(socket) {
     socket.broadcast.emit('mouse',data)
   }
 }
-
-//hola mi amigos
