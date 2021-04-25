@@ -19,6 +19,8 @@ function newDrawing(data) {
 	ellipse(data.x,data.y,30,30)
 }
 
+//こんにちは
+
 function mouseDragged() {
 	noStroke()
 	fill(localColour)
@@ -27,3 +29,5 @@ function mouseDragged() {
 	data = {x:mouseX,y:mouseY,colour:localColour}
 	socket.emit('mouse',data)
 }
+
+//bonjour
